@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <image name="background5.png" type="multi"  />
+    <image name="icon.png"  />
+    <image name="SignUpLabelBottom_1.png" type="multi"  />
+    <image name="SignUpLabelBottomL_1.png" type="multi"  />
+    <image name="SignUpLabelBottomR_1.png" type="multi"  />
+    <image name="SignUpLabelCenter_1.png" type="multi"  />
+    <image name="SignUpLabelLeft_1.png" type="multi"  />
+    <image name="SignUpLabelRight_1.png" type="multi"  />
+    <image name="SignUpLabelTop_1.png" type="multi"  />
+    <image name="SignUpLabelTopL_1.png" type="multi"  />
+    <image name="SignUpLabelTopR_1.png" type="multi"  />
+    <theme name="Theme">
+        <val key="BoutiqueInfo.align" value="4" />
+        <val key="BoutiqueInfo.dis#align" value="4" />
+        <val key="BoutiqueInfo.press#align" value="4" />
+        <val key="BoutiqueInfo.sel#align" value="4" />
+        <val key="Button.align" value="4" />
+        <val key="Button.bgColor" value="9999" />
+        <border key="Button.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Button.dis#align" value="4" />
+        <val key="Button.dis#bgColor" value="42524f" />
+        <border key="Button.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Button.dis#fgColor" value="ffffff" />
+        <font key="Button.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="Button.dis#padUnit" value="0,2,0,2" />
+        <val key="Button.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Button.dis#transparency" value="55" />
+        <val key="Button.fgColor" value="ffffff" />
+        <font key="Button.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="Button.padUnit" value="0,2,0,2" />
+        <val key="Button.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Button.press#align" value="4" />
+        <val key="Button.press#bgColor" value="999999" />
+        <border key="Button.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Button.press#fgColor" value="ffffff" />
+        <font key="Button.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="Button.press#padUnit" value="0,2,0,2" />
+        <val key="Button.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Button.press#transparency" value="255" />
+        <val key="Button.sel#align" value="4" />
+        <val key="Button.sel#bgColor" value="9999" />
+        <border key="Button.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Button.sel#fgColor" value="ffffff" />
+        <font key="Button.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="Button.sel#padUnit" value="0,2,0,2" />
+        <val key="Button.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Button.sel#transparency" value="255" />
+        <val key="Button.transparency" value="255" />
+        <val key="ButtonPart.align" value="4" />
+        <val key="ButtonPart.bgColor" value="f77032" />
+        <border key="ButtonPart.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="ButtonPart.dis#align" value="4" />
+        <val key="ButtonPart.dis#bgColor" value="f77032" />
+        <border key="ButtonPart.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="ButtonPart.dis#fgColor" value="ffffff" />
+        <font key="ButtonPart.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="ButtonPart.dis#marUnit" value="2,2,2,2" />
+        <val key="ButtonPart.dis#margin" value="1.0,1.0,4.0,4.0" />
+        <val key="ButtonPart.dis#transparency" value="255" />
+        <val key="ButtonPart.fgColor" value="ffffff" />
+        <font key="ButtonPart.font" type="system" face="0" style="0" size="0" />
+        <val key="ButtonPart.marUnit" value="2,2,2,2" />
+        <val key="ButtonPart.margin" value="1.0,1.0,4.0,4.0" />
+        <val key="ButtonPart.press#align" value="4" />
+        <val key="ButtonPart.press#bgColor" value="808080" />
+        <border key="ButtonPart.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="ButtonPart.press#fgColor" value="ffffff" />
+        <font key="ButtonPart.press#font" type="system" face="0" style="0" size="0" />
+        <val key="ButtonPart.press#marUnit" value="2,2,2,2" />
+        <val key="ButtonPart.press#margin" value="1.0,1.0,4.0,4.0" />
+        <val key="ButtonPart.press#transparency" value="255" />
+        <val key="ButtonPart.sel#align" value="4" />
+        <val key="ButtonPart.sel#bgColor" value="f77032" />
+        <border key="ButtonPart.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="ButtonPart.sel#fgColor" value="ffffff" />
+        <font key="ButtonPart.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="ButtonPart.sel#marUnit" value="2,2,2,2" />
+        <val key="ButtonPart.sel#margin" value="1.0,1.0,4.0,4.0" />
+        <val key="ButtonPart.sel#transparency" value="255" />
+        <val key="ButtonPart.transparency" value="255" />
+        <val key="ConnectButton.align" value="4" />
+        <val key="ConnectButton.bgColor" value="f77032" />
+        <border key="ConnectButton.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="ConnectButton.dis#align" value="4" />
+        <val key="ConnectButton.dis#bgColor" value="808080" />
+        <border key="ConnectButton.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="ConnectButton.dis#fgColor" value="ffffff" />
+        <font key="ConnectButton.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="ConnectButton.dis#marUnit" value="2,2,2,2" />
+        <val key="ConnectButton.dis#margin" value="3.0,2.0,6.0,6.0" />
+        <val key="ConnectButton.dis#transparency" value="255" />
+        <val key="ConnectButton.fgColor" value="ffffff" />
+        <font key="ConnectButton.font" type="system" face="0" style="1" size="0" />
+        <val key="ConnectButton.marUnit" value="2,2,2,2" />
+        <val key="ConnectButton.margin" value="3.0,2.0,6.0,6.0" />
+        <val key="ConnectButton.press#align" value="4" />
+        <val key="ConnectButton.press#bgColor" value="808080" />
+        <border key="ConnectButton.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="ConnectButton.press#fgColor" value="ffffff" />
+        <font key="ConnectButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="ConnectButton.press#marUnit" value="2,2,2,2" />
+        <val key="ConnectButton.press#margin" value="3.0,2.0,6.0,6.0" />
+        <val key="ConnectButton.press#transparency" value="255" />
+        <val key="ConnectButton.sel#align" value="4" />
+        <val key="ConnectButton.sel#bgColor" value="f77032" />
+        <border key="ConnectButton.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="ConnectButton.sel#fgColor" value="ffffff" />
+        <font key="ConnectButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="ConnectButton.sel#marUnit" value="2,2,2,2" />
+        <val key="ConnectButton.sel#margin" value="3.0,2.0,6.0,6.0" />
+        <val key="ConnectButton.sel#transparency" value="255" />
+        <val key="ConnectButton.transparency" value="255" />
+        <val key="ConnectCenter.bgColor" value="0" />
+        <val key="ConnectCenter.dis#bgColor" value="0" />
+        <val key="ConnectCenter.dis#marUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.dis#padUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.dis#transparency" value="0" />
+        <val key="ConnectCenter.marUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.padUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.press#bgColor" value="0" />
+        <val key="ConnectCenter.press#marUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.press#padUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.press#transparency" value="0" />
+        <val key="ConnectCenter.sel#bgColor" value="0" />
+        <val key="ConnectCenter.sel#marUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.sel#padUnit" value="0,0,0,0" />
+        <val key="ConnectCenter.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectCenter.sel#transparency" value="0" />
+        <val key="ConnectCenter.transparency" value="0" />
+        <val key="ConnectField.bgColor" value="ffffff" />
+        <val key="ConnectField.dis#bgColor" value="ffffff" />
+        <val key="ConnectField.dis#fgColor" value="0" />
+        <font key="ConnectField.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectField.dis#marUnit" value="2,2,0,0" />
+        <val key="ConnectField.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectField.dis#opacity" value="128" />
+        <val key="ConnectField.dis#padUnit" value="2,2,2,2" />
+        <val key="ConnectField.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectField.dis#transparency" value="255" />
+        <val key="ConnectField.fgColor" value="0" />
+        <font key="ConnectField.font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectField.marUnit" value="2,2,0,0" />
+        <val key="ConnectField.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectField.opacity" value="128" />
+        <val key="ConnectField.padUnit" value="2,2,2,2" />
+        <val key="ConnectField.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectField.press#bgColor" value="ffffff" />
+        <val key="ConnectField.press#fgColor" value="0" />
+        <font key="ConnectField.press#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectField.press#marUnit" value="2,2,0,0" />
+        <val key="ConnectField.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectField.press#opacity" value="128" />
+        <val key="ConnectField.press#padUnit" value="2,2,2,2" />
+        <val key="ConnectField.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectField.press#transparency" value="255" />
+        <val key="ConnectField.sel#bgColor" value="ffffff" />
+        <val key="ConnectField.sel#fgColor" value="0" />
+        <font key="ConnectField.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectField.sel#marUnit" value="2,2,0,0" />
+        <val key="ConnectField.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectField.sel#opacity" value="128" />
+        <val key="ConnectField.sel#padUnit" value="2,2,2,2" />
+        <val key="ConnectField.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectField.sel#transparency" value="255" />
+        <val key="ConnectField.transparency" value="255" />
+        <val key="ConnectFieldHint.align" value="1" />
+        <val key="ConnectFieldHint.dis#align" value="1" />
+        <val key="ConnectFieldHint.dis#fgColor" value="e70e0e" />
+        <font key="ConnectFieldHint.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectFieldHint.dis#marUnit" value="2,2,0,0" />
+        <val key="ConnectFieldHint.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectFieldHint.dis#padUnit" value="2,2,2,2" />
+        <val key="ConnectFieldHint.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectFieldHint.fgColor" value="e70e0e" />
+        <font key="ConnectFieldHint.font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectFieldHint.marUnit" value="2,2,0,0" />
+        <val key="ConnectFieldHint.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectFieldHint.padUnit" value="2,2,2,2" />
+        <val key="ConnectFieldHint.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectFieldHint.press#align" value="1" />
+        <val key="ConnectFieldHint.press#fgColor" value="e70e0e" />
+        <font key="ConnectFieldHint.press#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectFieldHint.press#marUnit" value="2,2,0,0" />
+        <val key="ConnectFieldHint.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectFieldHint.press#padUnit" value="2,2,2,2" />
+        <val key="ConnectFieldHint.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectFieldHint.sel#align" value="1" />
+        <val key="ConnectFieldHint.sel#fgColor" value="e70e0e" />
+        <font key="ConnectFieldHint.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="ConnectFieldHint.sel#marUnit" value="2,2,0,0" />
+        <val key="ConnectFieldHint.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectFieldHint.sel#padUnit" value="2,2,2,2" />
+        <val key="ConnectFieldHint.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectIconField.bgColor" value="0" />
+        <val key="ConnectIconField.dis#bgColor" value="0" />
+        <val key="ConnectIconField.dis#padUnit" value="2,2,2,2" />
+        <val key="ConnectIconField.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectIconField.dis#transparency" value="0" />
+        <val key="ConnectIconField.padUnit" value="2,2,2,2" />
+        <val key="ConnectIconField.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectIconField.press#bgColor" value="0" />
+        <val key="ConnectIconField.press#padUnit" value="2,2,2,2" />
+        <val key="ConnectIconField.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectIconField.press#transparency" value="0" />
+        <val key="ConnectIconField.sel#bgColor" value="0" />
+        <val key="ConnectIconField.sel#padUnit" value="2,2,2,2" />
+        <val key="ConnectIconField.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="ConnectIconField.sel#transparency" value="0" />
+        <val key="ConnectIconField.transparency" value="0" />
+        <val key="ConnectNorth.bgColor" value="0" />
+        <val key="ConnectNorth.dis#bgColor" value="0" />
+        <val key="ConnectNorth.dis#marUnit" value="0,0,0,0" />
+        <val key="ConnectNorth.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectNorth.dis#padUnit" value="2,0,2,0" />
+        <val key="ConnectNorth.dis#padding" value="6.0,6.0,0.0,0.0" />
+        <val key="ConnectNorth.dis#transparency" value="0" />
+        <val key="ConnectNorth.marUnit" value="0,0,0,0" />
+        <val key="ConnectNorth.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectNorth.padUnit" value="2,0,2,0" />
+        <val key="ConnectNorth.padding" value="6.0,6.0,0.0,0.0" />
+        <val key="ConnectNorth.press#bgColor" value="0" />
+        <val key="ConnectNorth.press#marUnit" value="0,0,0,0" />
+        <val key="ConnectNorth.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectNorth.press#padUnit" value="2,0,2,0" />
+        <val key="ConnectNorth.press#padding" value="6.0,6.0,0.0,0.0" />
+        <val key="ConnectNorth.press#transparency" value="0" />
+        <val key="ConnectNorth.sel#bgColor" value="0" />
+        <val key="ConnectNorth.sel#marUnit" value="0,0,0,0" />
+        <val key="ConnectNorth.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ConnectNorth.sel#padUnit" value="2,0,2,0" />
+        <val key="ConnectNorth.sel#padding" value="6.0,6.0,0.0,0.0" />
+        <val key="ConnectNorth.sel#transparency" value="0" />
+        <val key="ConnectNorth.transparency" value="0" />
+        <val key="DBody.dis#marUnit" value="0,0,2,0" />
+        <val key="DBody.dis#margin" value="0.0,10.0,0.0,0.0" />
+        <val key="DBody.marUnit" value="0,0,2,0" />
+        <val key="DBody.margin" value="0.0,10.0,0.0,0.0" />
+        <val key="DBody.press#marUnit" value="0,0,2,0" />
+        <val key="DBody.press#margin" value="0.0,10.0,0.0,0.0" />
+        <val key="DBody.sel#marUnit" value="0,0,2,0" />
+        <val key="DBody.sel#margin" value="0.0,10.0,0.0,0.0" />
+        <val key="Date.derive" value="Container" />
+        <val key="Date.dis#derive" value="Container.dis" />
+        <font key="Date.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="Date.dis#marUnit" value="2,2,2,2" />
+        <val key="Date.dis#margin" value="1.0,1.0,5.0,1.0" />
+        <font key="Date.font" type="system" face="0" style="1" size="0" />
+        <val key="Date.marUnit" value="2,2,2,2" />
+        <val key="Date.margin" value="1.0,1.0,5.0,1.0" />
+        <val key="Date.press#derive" value="Container.press" />
+        <font key="Date.press#font" type="system" face="0" style="1" size="0" />
+        <val key="Date.press#marUnit" value="2,2,2,2" />
+        <val key="Date.press#margin" value="1.0,1.0,5.0,1.0" />
+        <val key="Date.sel#derive" value="Container.sel" />
+        <font key="Date.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="Date.sel#marUnit" value="2,2,2,2" />
+        <val key="Date.sel#margin" value="1.0,1.0,5.0,1.0" />
+        <val key="Delete.align" value="4" />
+        <val key="Delete.bgColor" value="b9b9b9" />
+        <border key="Delete.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Delete.dis#align" value="4" />
+        <val key="Delete.dis#bgColor" value="42524f" />
+        <border key="Delete.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Delete.dis#fgColor" value="ffffff" />
+        <font key="Delete.dis#font" type="ttf" face="0" style="1" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="Delete.dis#transparency" value="55" />
+        <val key="Delete.fgColor" value="e20909" />
+        <font key="Delete.font" type="ttf" face="0" style="1" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="Delete.press#align" value="4" />
+        <val key="Delete.press#bgColor" value="db4b4b" />
+        <border key="Delete.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Delete.press#fgColor" value="fa2a2a" />
+        <font key="Delete.press#font" type="ttf" face="0" style="1" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="Delete.press#transparency" value="155" />
+        <val key="Delete.sel#align" value="4" />
+        <val key="Delete.sel#bgColor" value="b9b9b9" />
+        <border key="Delete.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Delete.sel#fgColor" value="e20909" />
+        <font key="Delete.sel#font" type="ttf" face="0" style="1" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="Delete.sel#transparency" value="255" />
+        <val key="Delete.transparency" value="255" />
+        <val key="EtatTombolaCloturée.align" value="4" />
+        <val key="EtatTombolaCloturée.bgColor" value="ff0000" />
+        <border key="EtatTombolaCloturée.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaCloturée.dis#align" value="4" />
+        <val key="EtatTombolaCloturée.dis#bgColor" value="ff0000" />
+        <border key="EtatTombolaCloturée.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaCloturée.dis#fgColor" value="ffffff" />
+        <font key="EtatTombolaCloturée.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaCloturée.dis#transparency" value="255" />
+        <val key="EtatTombolaCloturée.fgColor" value="ffffff" />
+        <font key="EtatTombolaCloturée.font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaCloturée.press#align" value="4" />
+        <val key="EtatTombolaCloturée.press#bgColor" value="ff0000" />
+        <border key="EtatTombolaCloturée.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaCloturée.press#fgColor" value="ffffff" />
+        <font key="EtatTombolaCloturée.press#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaCloturée.press#transparency" value="255" />
+        <val key="EtatTombolaCloturée.sel#align" value="4" />
+        <val key="EtatTombolaCloturée.sel#bgColor" value="ff0000" />
+        <border key="EtatTombolaCloturée.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaCloturée.sel#fgColor" value="ffffff" />
+        <font key="EtatTombolaCloturée.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaCloturée.sel#transparency" value="255" />
+        <val key="EtatTombolaCloturée.transparency" value="255" />
+        <val key="EtatTombolaFermée.align" value="4" />
+        <val key="EtatTombolaFermée.bgColor" value="ffbb00" />
+        <border key="EtatTombolaFermée.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaFermée.dis#align" value="4" />
+        <val key="EtatTombolaFermée.dis#bgColor" value="ffbb00" />
+        <border key="EtatTombolaFermée.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaFermée.dis#fgColor" value="ffffff" />
+        <font key="EtatTombolaFermée.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaFermée.dis#transparency" value="220" />
+        <val key="EtatTombolaFermée.fgColor" value="ffffff" />
+        <font key="EtatTombolaFermée.font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaFermée.press#align" value="4" />
+        <val key="EtatTombolaFermée.press#bgColor" value="ffbb00" />
+        <border key="EtatTombolaFermée.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaFermée.press#fgColor" value="ffffff" />
+        <font key="EtatTombolaFermée.press#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaFermée.press#transparency" value="220" />
+        <val key="EtatTombolaFermée.sel#align" value="4" />
+        <val key="EtatTombolaFermée.sel#bgColor" value="ffbb00" />
+        <border key="EtatTombolaFermée.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaFermée.sel#fgColor" value="ffffff" />
+        <font key="EtatTombolaFermée.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaFermée.sel#transparency" value="220" />
+        <val key="EtatTombolaFermée.transparency" value="220" />
+        <val key="EtatTombolaOuverte.align" value="4" />
+        <val key="EtatTombolaOuverte.bgColor" value="8000" />
+        <border key="EtatTombolaOuverte.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaOuverte.dis#align" value="4" />
+        <val key="EtatTombolaOuverte.dis#bgColor" value="8000" />
+        <border key="EtatTombolaOuverte.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaOuverte.dis#fgColor" value="ffffff" />
+        <font key="EtatTombolaOuverte.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaOuverte.dis#transparency" value="255" />
+        <val key="EtatTombolaOuverte.fgColor" value="ffffff" />
+        <font key="EtatTombolaOuverte.font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaOuverte.press#align" value="4" />
+        <val key="EtatTombolaOuverte.press#bgColor" value="8000" />
+        <border key="EtatTombolaOuverte.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaOuverte.press#fgColor" value="ffffff" />
+        <font key="EtatTombolaOuverte.press#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaOuverte.press#transparency" value="255" />
+        <val key="EtatTombolaOuverte.sel#align" value="4" />
+        <val key="EtatTombolaOuverte.sel#bgColor" value="8000" />
+        <border key="EtatTombolaOuverte.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="EtatTombolaOuverte.sel#fgColor" value="ffffff" />
+        <font key="EtatTombolaOuverte.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="EtatTombolaOuverte.sel#transparency" value="255" />
+        <val key="EtatTombolaOuverte.transparency" value="255" />
+        <val key="FeedBackLabel.bgColor" value="0" />
+        <val key="FeedBackLabel.dis#bgColor" value="0" />
+        <val key="FeedBackLabel.dis#fgColor" value="4d606f" />
+        <val key="FeedBackLabel.dis#transparency" value="0" />
+        <val key="FeedBackLabel.fgColor" value="4d606f" />
+        <val key="FeedBackLabel.press#bgColor" value="0" />
+        <val key="FeedBackLabel.press#fgColor" value="4d606f" />
+        <val key="FeedBackLabel.press#transparency" value="0" />
+        <val key="FeedBackLabel.sel#bgColor" value="0" />
+        <val key="FeedBackLabel.sel#fgColor" value="4d606f" />
+        <val key="FeedBackLabel.sel#transparency" value="0" />
+        <val key="FeedBackLabel.transparency" value="0" />
+        <val key="Form.bgColor" value="efefef" />
+        <val key="Form.dis#bgColor" value="efefef" />
+        <val key="Form.dis#transparency" value="255" />
+        <val key="Form.press#bgColor" value="efefef" />
+        <val key="Form.press#transparency" value="255" />
+        <val key="Form.sel#bgColor" value="efefef" />
+        <val key="Form.sel#transparency" value="255" />
+        <val key="Form.transparency" value="255" />
+        <val key="HomeForm.bgColor" value="efefef" />
+        <val key="HomeForm.derive" value="Form" />
+        <val key="HomeForm.dis#bgColor" value="efefef" />
+        <val key="HomeForm.dis#derive" value="Form.dis" />
+        <val key="HomeForm.dis#transparency" value="255" />
+        <val key="HomeForm.press#bgColor" value="efefef" />
+        <val key="HomeForm.press#derive" value="Form.press" />
+        <val key="HomeForm.press#transparency" value="255" />
+        <val key="HomeForm.sel#bgColor" value="efefef" />
+        <val key="HomeForm.sel#derive" value="Form.sel" />
+        <val key="HomeForm.sel#transparency" value="255" />
+        <val key="HomeForm.transparency" value="255" />
+        <val key="Label.bgColor" value="0" />
+        <val key="Label.dis#bgColor" value="0" />
+        <font key="Label.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="Label.dis#transparency" value="0" />
+        <font key="Label.font" type="system" face="0" style="0" size="0" />
+        <val key="Label.press#bgColor" value="0" />
+        <font key="Label.press#font" type="system" face="0" style="0" size="0" />
+        <val key="Label.press#transparency" value="0" />
+        <val key="Label.sel#bgColor" value="0" />
+        <font key="Label.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="Label.sel#transparency" value="0" />
+        <val key="Label.transparency" value="0" />
+        <val key="List.bgColor" value="efefef" />
+        <val key="List.dis#bgColor" value="efefef" />
+        <val key="List.dis#transparency" value="255" />
+        <val key="List.press#bgColor" value="efefef" />
+        <val key="List.press#transparency" value="255" />
+        <val key="List.sel#bgColor" value="efefef" />
+        <val key="List.sel#transparency" value="255" />
+        <val key="List.transparency" value="255" />
+        <val key="ListItem.bgColor" value="ffffff" />
+        <border key="ListItem.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="ListItem.dis#bgColor" value="ffffff" />
+        <border key="ListItem.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="ListItem.dis#marUnit" value="2,2,2,2" />
+        <val key="ListItem.dis#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="ListItem.dis#transparency" value="255" />
+        <val key="ListItem.marUnit" value="2,2,2,2" />
+        <val key="ListItem.margin" value="1.0,1.0,1.0,1.0" />
+        <val key="ListItem.press#bgColor" value="ffffff" />
+        <border key="ListItem.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="ListItem.press#marUnit" value="2,2,2,2" />
+        <val key="ListItem.press#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="ListItem.press#transparency" value="255" />
+        <val key="ListItem.sel#bgColor" value="e2e2e2" />
+        <border key="ListItem.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="ListItem.sel#marUnit" value="2,2,2,2" />
+        <val key="ListItem.sel#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="ListItem.sel#transparency" value="255" />
+        <val key="ListItem.transparency" value="255" />
+        <val key="MultiLine1.bgColor" value="0" />
+        <val key="MultiLine1.dis#bgColor" value="0" />
+        <val key="MultiLine1.dis#fgColor" value="545454" />
+        <font key="MultiLine1.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="MultiLine1.dis#transparency" value="0" />
+        <val key="MultiLine1.fgColor" value="545454" />
+        <font key="MultiLine1.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="MultiLine1.press#bgColor" value="0" />
+        <val key="MultiLine1.press#fgColor" value="545454" />
+        <font key="MultiLine1.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="MultiLine1.press#transparency" value="0" />
+        <val key="MultiLine1.sel#bgColor" value="0" />
+        <val key="MultiLine1.sel#fgColor" value="545454" />
+        <font key="MultiLine1.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="MultiLine1.sel#transparency" value="0" />
+        <val key="MultiLine1.transparency" value="0" />
+        <val key="MultiLine2.bgColor" value="0" />
+        <val key="MultiLine2.dis#bgColor" value="0" />
+        <val key="MultiLine2.dis#fgColor" value="666666" />
+        <font key="MultiLine2.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine2.dis#transparency" value="0" />
+        <val key="MultiLine2.fgColor" value="666666" />
+        <font key="MultiLine2.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine2.press#bgColor" value="0" />
+        <val key="MultiLine2.press#fgColor" value="666666" />
+        <font key="MultiLine2.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine2.press#transparency" value="0" />
+        <val key="MultiLine2.sel#bgColor" value="0" />
+        <val key="MultiLine2.sel#fgColor" value="666666" />
+        <font key="MultiLine2.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine2.sel#transparency" value="0" />
+        <val key="MultiLine2.transparency" value="0" />
+        <val key="MultiLine3.bgColor" value="0" />
+        <val key="MultiLine3.dis#bgColor" value="0" />
+        <val key="MultiLine3.dis#fgColor" value="666666" />
+        <font key="MultiLine3.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine3.dis#transparency" value="0" />
+        <val key="MultiLine3.fgColor" value="666666" />
+        <font key="MultiLine3.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine3.press#bgColor" value="0" />
+        <val key="MultiLine3.press#fgColor" value="666666" />
+        <font key="MultiLine3.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine3.press#transparency" value="0" />
+        <val key="MultiLine3.sel#bgColor" value="0" />
+        <val key="MultiLine3.sel#fgColor" value="666666" />
+        <font key="MultiLine3.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine3.sel#transparency" value="0" />
+        <val key="MultiLine3.transparency" value="0" />
+        <val key="MultiLine4.bgColor" value="0" />
+        <val key="MultiLine4.dis#bgColor" value="0" />
+        <val key="MultiLine4.dis#fgColor" value="666666" />
+        <font key="MultiLine4.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine4.dis#transparency" value="0" />
+        <val key="MultiLine4.fgColor" value="666666" />
+        <font key="MultiLine4.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine4.press#bgColor" value="0" />
+        <val key="MultiLine4.press#fgColor" value="666666" />
+        <font key="MultiLine4.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine4.press#transparency" value="0" />
+        <val key="MultiLine4.sel#bgColor" value="0" />
+        <val key="MultiLine4.sel#fgColor" value="666666" />
+        <font key="MultiLine4.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="1.0" />
+        <val key="MultiLine4.sel#transparency" value="0" />
+        <val key="MultiLine4.transparency" value="0" />
+        <val key="PhotoButton.dis#marUnit" value="2,2,2,2" />
+        <val key="PhotoButton.dis#margin" value="3.0,3.0,3.0,3.0" />
+        <val key="PhotoButton.marUnit" value="2,2,2,2" />
+        <val key="PhotoButton.margin" value="3.0,3.0,3.0,3.0" />
+        <val key="PhotoButton.press#marUnit" value="2,2,2,2" />
+        <val key="PhotoButton.press#margin" value="3.0,3.0,3.0,3.0" />
+        <val key="PhotoButton.sel#marUnit" value="2,2,2,2" />
+        <val key="PhotoButton.sel#margin" value="3.0,3.0,3.0,3.0" />
+        <val key="PhotoItem.bgColor" value="0" />
+        <val key="PhotoItem.bgType" value="33" />
+        <border key="PhotoItem.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PhotoItem.dis#bgColor" value="0" />
+        <val key="PhotoItem.dis#bgType" value="33" />
+        <border key="PhotoItem.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PhotoItem.dis#marUnit" value="2,2,2,2" />
+        <val key="PhotoItem.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="PhotoItem.dis#transparency" value="0" />
+        <val key="PhotoItem.marUnit" value="2,2,2,2" />
+        <val key="PhotoItem.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="PhotoItem.press#bgColor" value="0" />
+        <val key="PhotoItem.press#bgType" value="33" />
+        <border key="PhotoItem.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PhotoItem.press#marUnit" value="2,2,2,2" />
+        <val key="PhotoItem.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="PhotoItem.press#transparency" value="0" />
+        <val key="PhotoItem.sel#bgColor" value="0" />
+        <val key="PhotoItem.sel#bgType" value="33" />
+        <border key="PhotoItem.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PhotoItem.sel#marUnit" value="2,2,2,2" />
+        <val key="PhotoItem.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="PhotoItem.sel#transparency" value="0" />
+        <val key="PhotoItem.transparency" value="0" />
+        <val key="PreviewPhoto.bgColor" value="0" />
+        <border key="PreviewPhoto.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PreviewPhoto.dis#bgColor" value="0" />
+        <border key="PreviewPhoto.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PreviewPhoto.dis#marUnit" value="2,2,2,2" />
+        <val key="PreviewPhoto.dis#margin" value="1.0,1.0,2.0,1.0" />
+        <val key="PreviewPhoto.dis#transparency" value="0" />
+        <val key="PreviewPhoto.marUnit" value="2,2,2,2" />
+        <val key="PreviewPhoto.margin" value="1.0,1.0,2.0,1.0" />
+        <val key="PreviewPhoto.press#bgColor" value="0" />
+        <border key="PreviewPhoto.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PreviewPhoto.press#marUnit" value="2,2,2,2" />
+        <val key="PreviewPhoto.press#margin" value="1.0,1.0,2.0,1.0" />
+        <val key="PreviewPhoto.press#transparency" value="0" />
+        <val key="PreviewPhoto.sel#bgColor" value="0" />
+        <border key="PreviewPhoto.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="PreviewPhoto.sel#marUnit" value="2,2,2,2" />
+        <val key="PreviewPhoto.sel#margin" value="1.0,1.0,2.0,1.0" />
+        <val key="PreviewPhoto.sel#transparency" value="0" />
+        <val key="PreviewPhoto.transparency" value="0" />
+        <val key="RestItem.bgColor" value="0" />
+        <val key="RestItem.dis#bgColor" value="0" />
+        <val key="RestItem.dis#fgColor" value="0" />
+        <font key="RestItem.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItem.dis#padUnit" value="0,2,0,2" />
+        <val key="RestItem.dis#padding" value="0.0,0.0,1.0,1.0" />
+        <val key="RestItem.dis#transparency" value="0" />
+        <val key="RestItem.fgColor" value="0" />
+        <font key="RestItem.font" type="system" face="0" style="1" size="0" />
+        <val key="RestItem.padUnit" value="0,2,0,2" />
+        <val key="RestItem.padding" value="0.0,0.0,1.0,1.0" />
+        <val key="RestItem.press#bgColor" value="0" />
+        <val key="RestItem.press#fgColor" value="0" />
+        <font key="RestItem.press#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItem.press#padUnit" value="0,2,0,2" />
+        <val key="RestItem.press#padding" value="0.0,0.0,1.0,1.0" />
+        <val key="RestItem.press#transparency" value="0" />
+        <val key="RestItem.sel#bgColor" value="0" />
+        <val key="RestItem.sel#fgColor" value="0" />
+        <font key="RestItem.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItem.sel#padUnit" value="0,2,0,2" />
+        <val key="RestItem.sel#padding" value="0.0,0.0,1.0,1.0" />
+        <val key="RestItem.sel#transparency" value="0" />
+        <val key="RestItem.transparency" value="0" />
+        <val key="RestItemInfo.bgColor" value="0" />
+        <val key="RestItemInfo.dis#bgColor" value="0" />
+        <val key="RestItemInfo.dis#fgColor" value="ff4500" />
+        <font key="RestItemInfo.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItemInfo.dis#transparency" value="0" />
+        <val key="RestItemInfo.fgColor" value="ff4500" />
+        <font key="RestItemInfo.font" type="system" face="0" style="1" size="0" />
+        <val key="RestItemInfo.press#bgColor" value="0" />
+        <val key="RestItemInfo.press#fgColor" value="ff4500" />
+        <font key="RestItemInfo.press#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItemInfo.press#transparency" value="0" />
+        <val key="RestItemInfo.sel#bgColor" value="0" />
+        <val key="RestItemInfo.sel#fgColor" value="ff4500" />
+        <font key="RestItemInfo.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="RestItemInfo.sel#transparency" value="0" />
+        <val key="RestItemInfo.transparency" value="0" />
+        <border key="RowConnect.border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.5" bezierCorners="false" />
+        <border key="RowConnect.dis#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.5" bezierCorners="false" />
+        <val key="RowConnect.dis#marUnit" value="2,2,2,2" />
+        <val key="RowConnect.dis#margin" value="2.0,0.0,6.0,6.0" />
+        <val key="RowConnect.marUnit" value="2,2,2,2" />
+        <val key="RowConnect.margin" value="2.0,0.0,6.0,6.0" />
+        <border key="RowConnect.press#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.5" bezierCorners="false" />
+        <val key="RowConnect.press#marUnit" value="2,2,2,2" />
+        <val key="RowConnect.press#margin" value="2.0,0.0,6.0,6.0" />
+        <border key="RowConnect.sel#border" type="roundRect" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.5" bezierCorners="false" />
+        <val key="RowConnect.sel#marUnit" value="2,2,2,2" />
+        <val key="RowConnect.sel#margin" value="2.0,0.0,6.0,6.0" />
+        <val key="SideCommand.bgColor" value="9999" />
+        <val key="SideCommand.dis#bgColor" value="9999" />
+        <val key="SideCommand.dis#fgColor" value="ffffff" />
+        <font key="SideCommand.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SideCommand.dis#transparency" value="255" />
+        <val key="SideCommand.fgColor" value="ffffff" />
+        <font key="SideCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SideCommand.press#bgColor" value="7777" />
+        <border key="SideCommand.press#border" type="empty" />
+        <val key="SideCommand.press#fgColor" value="ffffff" />
+        <font key="SideCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SideCommand.press#transparency" value="255" />
+        <val key="SideCommand.sel#bgColor" value="7777" />
+        <border key="SideCommand.sel#border" type="empty" />
+        <val key="SideCommand.sel#fgColor" value="ffffff" />
+        <font key="SideCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SideCommand.sel#transparency" value="255" />
+        <val key="SideCommand.transparency" value="255" />
+        <val key="SidemenuTagline.align" value="1" />
+        <val key="SidemenuTagline.bgColor" value="0" />
+        <val key="SidemenuTagline.dis#align" value="1" />
+        <val key="SidemenuTagline.dis#bgColor" value="0" />
+        <val key="SidemenuTagline.dis#fgColor" value="ffffff" />
+        <font key="SidemenuTagline.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SidemenuTagline.dis#transparency" value="0" />
+        <val key="SidemenuTagline.fgColor" value="ffffff" />
+        <font key="SidemenuTagline.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SidemenuTagline.press#align" value="1" />
+        <val key="SidemenuTagline.press#bgColor" value="0" />
+        <val key="SidemenuTagline.press#fgColor" value="ffffff" />
+        <font key="SidemenuTagline.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SidemenuTagline.press#transparency" value="0" />
+        <val key="SidemenuTagline.sel#align" value="1" />
+        <val key="SidemenuTagline.sel#bgColor" value="0" />
+        <val key="SidemenuTagline.sel#fgColor" value="ffffff" />
+        <font key="SidemenuTagline.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="1" actualSize="0.0" />
+        <val key="SidemenuTagline.sel#transparency" value="0" />
+        <val key="SidemenuTagline.transparency" value="0" />
+        <val key="SignUpButton.align" value="4" />
+        <val key="SignUpButton.bgColor" value="f73267" />
+        <border key="SignUpButton.border" type="empty" />
+        <val key="SignUpButton.dis#align" value="4" />
+        <val key="SignUpButton.dis#bgColor" value="f73267" />
+        <border key="SignUpButton.dis#border" type="empty" />
+        <val key="SignUpButton.dis#fgColor" value="ffffff" />
+        <font key="SignUpButton.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpButton.dis#marUnit" value="0,0,0,0" />
+        <val key="SignUpButton.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpButton.dis#padUnit" value="2,2,2,2" />
+        <val key="SignUpButton.dis#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpButton.dis#transparency" value="255" />
+        <val key="SignUpButton.fgColor" value="ffffff" />
+        <font key="SignUpButton.font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpButton.marUnit" value="0,0,0,0" />
+        <val key="SignUpButton.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpButton.padUnit" value="2,2,2,2" />
+        <val key="SignUpButton.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpButton.press#align" value="4" />
+        <val key="SignUpButton.press#bgColor" value="808080" />
+        <border key="SignUpButton.press#border" type="empty" />
+        <val key="SignUpButton.press#fgColor" value="ffffff" />
+        <font key="SignUpButton.press#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpButton.press#marUnit" value="0,0,0,0" />
+        <val key="SignUpButton.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpButton.press#padUnit" value="2,2,2,2" />
+        <val key="SignUpButton.press#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpButton.press#transparency" value="255" />
+        <val key="SignUpButton.sel#align" value="4" />
+        <val key="SignUpButton.sel#bgColor" value="f73267" />
+        <border key="SignUpButton.sel#border" type="empty" />
+        <val key="SignUpButton.sel#fgColor" value="ffffff" />
+        <font key="SignUpButton.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpButton.sel#marUnit" value="0,0,0,0" />
+        <val key="SignUpButton.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpButton.sel#padUnit" value="2,2,2,2" />
+        <val key="SignUpButton.sel#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpButton.sel#transparency" value="255" />
+        <val key="SignUpButton.transparency" value="255" />
+        <val key="SignUpCenter.bgColor" value="ffffff" />
+        <val key="SignUpCenter.dis#bgColor" value="ffffff" />
+        <val key="SignUpCenter.dis#marUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.dis#padUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.dis#transparency" value="255" />
+        <val key="SignUpCenter.marUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.padUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.press#bgColor" value="ffffff" />
+        <val key="SignUpCenter.press#marUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.press#padUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.press#transparency" value="255" />
+        <val key="SignUpCenter.sel#bgColor" value="ffffff" />
+        <val key="SignUpCenter.sel#marUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.sel#padUnit" value="0,0,0,0" />
+        <val key="SignUpCenter.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpCenter.sel#transparency" value="255" />
+        <val key="SignUpCenter.transparency" value="255" />
+        <border key="SignUpField.border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <border key="SignUpField.dis#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpField.dis#fgColor" value="4d606f" />
+        <font key="SignUpField.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpField.dis#marUnit" value="0,0,0,0" />
+        <val key="SignUpField.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpField.dis#padUnit" value="2,2,2,2" />
+        <val key="SignUpField.dis#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpField.dis#transparency" value="0" />
+        <val key="SignUpField.fgColor" value="4d606f" />
+        <font key="SignUpField.font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpField.marUnit" value="0,0,0,0" />
+        <val key="SignUpField.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpField.padUnit" value="2,2,2,2" />
+        <val key="SignUpField.padding" value="2.0,2.0,2.0,2.0" />
+        <border key="SignUpField.press#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpField.press#fgColor" value="4d606f" />
+        <font key="SignUpField.press#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpField.press#marUnit" value="0,0,0,0" />
+        <val key="SignUpField.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpField.press#padUnit" value="2,2,2,2" />
+        <val key="SignUpField.press#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpField.press#transparency" value="0" />
+        <border key="SignUpField.sel#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpField.sel#fgColor" value="4d606f" />
+        <font key="SignUpField.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpField.sel#marUnit" value="0,0,0,0" />
+        <val key="SignUpField.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpField.sel#padUnit" value="2,2,2,2" />
+        <val key="SignUpField.sel#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="SignUpField.sel#transparency" value="0" />
+        <val key="SignUpField.transparency" value="0" />
+        <val key="SignUpForm.bgColor" value="efefef" />
+        <val key="SignUpForm.bgImage" value="background5.png" />
+        <val key="SignUpForm.bgType" value="2" />
+        <val key="SignUpForm.derive" value="Form" />
+        <val key="SignUpForm.dis#bgColor" value="efefef" />
+        <val key="SignUpForm.dis#bgImage" value="background5.png" />
+        <val key="SignUpForm.dis#bgType" value="2" />
+        <val key="SignUpForm.dis#derive" value="Form.dis" />
+        <val key="SignUpForm.dis#padUnit" value="0,0,0,0" />
+        <val key="SignUpForm.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpForm.dis#transparency" value="255" />
+        <val key="SignUpForm.padUnit" value="0,0,0,0" />
+        <val key="SignUpForm.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpForm.press#bgColor" value="efefef" />
+        <val key="SignUpForm.press#bgImage" value="background5.png" />
+        <val key="SignUpForm.press#bgType" value="2" />
+        <val key="SignUpForm.press#derive" value="Form.press" />
+        <val key="SignUpForm.press#padUnit" value="0,0,0,0" />
+        <val key="SignUpForm.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpForm.press#transparency" value="255" />
+        <val key="SignUpForm.sel#bgColor" value="efefef" />
+        <val key="SignUpForm.sel#bgImage" value="background5.png" />
+        <val key="SignUpForm.sel#bgType" value="2" />
+        <val key="SignUpForm.sel#derive" value="Form.sel" />
+        <val key="SignUpForm.sel#padUnit" value="0,0,0,0" />
+        <val key="SignUpForm.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpForm.sel#transparency" value="255" />
+        <val key="SignUpForm.transparency" value="255" />
+        <border key="SignUpLabel.border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <border key="SignUpLabel.dis#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpLabel.dis#fgColor" value="4d606f" />
+        <font key="SignUpLabel.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpLabel.dis#marUnit" value="0,0,0,0" />
+        <val key="SignUpLabel.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpLabel.dis#padUnit" value="2,2,2,2" />
+        <val key="SignUpLabel.dis#padding" value="2.0,2.0,4.0,4.0" />
+        <val key="SignUpLabel.dis#transparency" value="0" />
+        <val key="SignUpLabel.fgColor" value="4d606f" />
+        <font key="SignUpLabel.font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpLabel.marUnit" value="0,0,0,0" />
+        <val key="SignUpLabel.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpLabel.padUnit" value="2,2,2,2" />
+        <val key="SignUpLabel.padding" value="2.0,2.0,4.0,4.0" />
+        <border key="SignUpLabel.press#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpLabel.press#fgColor" value="4d606f" />
+        <font key="SignUpLabel.press#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpLabel.press#marUnit" value="0,0,0,0" />
+        <val key="SignUpLabel.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpLabel.press#padUnit" value="2,2,2,2" />
+        <val key="SignUpLabel.press#padding" value="2.0,2.0,4.0,4.0" />
+        <val key="SignUpLabel.press#transparency" value="0" />
+        <border key="SignUpLabel.sel#border" type="image" i1="SignUpLabelTop_1.png" i2="SignUpLabelBottom_1.png" i3="SignUpLabelLeft_1.png" i4="SignUpLabelRight_1.png" i5="SignUpLabelTopL_1.png" i6="SignUpLabelTopR_1.png" i7="SignUpLabelBottomL_1.png" i8="SignUpLabelBottomR_1.png" i9="SignUpLabelCenter_1.png" />
+        <val key="SignUpLabel.sel#fgColor" value="4d606f" />
+        <font key="SignUpLabel.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="SignUpLabel.sel#marUnit" value="0,0,0,0" />
+        <val key="SignUpLabel.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SignUpLabel.sel#padUnit" value="2,2,2,2" />
+        <val key="SignUpLabel.sel#padding" value="2.0,2.0,4.0,4.0" />
+        <val key="SignUpLabel.sel#transparency" value="0" />
+        <val key="SignUpLabel.transparency" value="0" />
+        <val key="SignupFieldHint.dis#fgColor" value="4d606f" />
+        <font key="SignupFieldHint.dis#font" type="system" face="0" style="0" size="8" />
+        <val key="SignupFieldHint.dis#padUnit" value="2,2,2,2" />
+        <val key="SignupFieldHint.dis#padding" value="4.0,4.0,4.0,4.0" />
+        <val key="SignupFieldHint.fgColor" value="4d606f" />
+        <font key="SignupFieldHint.font" type="system" face="0" style="0" size="8" />
+        <val key="SignupFieldHint.padUnit" value="2,2,2,2" />
+        <val key="SignupFieldHint.padding" value="4.0,4.0,4.0,4.0" />
+        <val key="SignupFieldHint.press#fgColor" value="4d606f" />
+        <font key="SignupFieldHint.press#font" type="system" face="0" style="0" size="8" />
+        <val key="SignupFieldHint.press#padUnit" value="2,2,2,2" />
+        <val key="SignupFieldHint.press#padding" value="4.0,4.0,4.0,4.0" />
+        <val key="SignupFieldHint.sel#fgColor" value="4d606f" />
+        <font key="SignupFieldHint.sel#font" type="system" face="0" style="0" size="8" />
+        <val key="SignupFieldHint.sel#padUnit" value="2,2,2,2" />
+        <val key="SignupFieldHint.sel#padding" value="4.0,4.0,4.0,4.0" />
+        <val key="Time.derive" value="Container" />
+        <val key="Time.dis#derive" value="Container.dis" />
+        <font key="Time.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="Time.dis#marUnit" value="2,2,2,2" />
+        <val key="Time.dis#margin" value="1.0,1.0,1.0,1.0" />
+        <font key="Time.font" type="system" face="0" style="1" size="0" />
+        <val key="Time.marUnit" value="2,2,2,2" />
+        <val key="Time.margin" value="1.0,1.0,1.0,1.0" />
+        <val key="Time.press#derive" value="Container.press" />
+        <font key="Time.press#font" type="system" face="0" style="1" size="0" />
+        <val key="Time.press#marUnit" value="2,2,2,2" />
+        <val key="Time.press#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="Time.sel#derive" value="Container.sel" />
+        <font key="Time.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="Time.sel#marUnit" value="2,2,2,2" />
+        <val key="Time.sel#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="Title.bgColor" value="0" />
+        <val key="Title.dis#bgColor" value="0" />
+        <val key="Title.dis#fgColor" value="545454" />
+        <font key="Title.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="Title.dis#transparency" value="0" />
+        <val key="Title.fgColor" value="545454" />
+        <font key="Title.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="Title.press#bgColor" value="0" />
+        <val key="Title.press#fgColor" value="545454" />
+        <font key="Title.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="Title.press#transparency" value="0" />
+        <val key="Title.sel#bgColor" value="0" />
+        <val key="Title.sel#fgColor" value="545454" />
+        <font key="Title.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="Title.sel#transparency" value="0" />
+        <val key="Title.transparency" value="0" />
+        <val key="Title2.bgColor" value="0" />
+        <val key="Title2.dis#bgColor" value="0" />
+        <val key="Title2.dis#fgColor" value="9999" />
+        <font key="Title2.dis#font" type="system" face="0" style="0" size="0" />
+        <val key="Title2.dis#marUnit" value="2,2,2,2" />
+        <val key="Title2.dis#margin" value="1.0,4.0,1.0,4.0" />
+        <val key="Title2.dis#transparency" value="0" />
+        <val key="Title2.fgColor" value="9999" />
+        <font key="Title2.font" type="system" face="0" style="0" size="0" />
+        <val key="Title2.marUnit" value="2,2,2,2" />
+        <val key="Title2.margin" value="1.0,4.0,1.0,4.0" />
+        <val key="Title2.press#bgColor" value="0" />
+        <val key="Title2.press#fgColor" value="9999" />
+        <font key="Title2.press#font" type="system" face="0" style="0" size="0" />
+        <val key="Title2.press#marUnit" value="2,2,2,2" />
+        <val key="Title2.press#margin" value="1.0,4.0,1.0,4.0" />
+        <val key="Title2.press#transparency" value="0" />
+        <val key="Title2.sel#bgColor" value="0" />
+        <val key="Title2.sel#fgColor" value="9999" />
+        <font key="Title2.sel#font" type="system" face="0" style="0" size="0" />
+        <val key="Title2.sel#marUnit" value="2,2,2,2" />
+        <val key="Title2.sel#margin" value="1.0,4.0,1.0,4.0" />
+        <val key="Title2.sel#transparency" value="0" />
+        <val key="Title2.transparency" value="0" />
+        <val key="TitleArea.bgColor" value="0" />
+        <val key="TitleArea.dis#bgColor" value="0" />
+        <font key="TitleArea.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleArea.dis#transparency" value="0" />
+        <font key="TitleArea.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleArea.press#bgColor" value="0" />
+        <font key="TitleArea.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleArea.press#transparency" value="0" />
+        <val key="TitleArea.sel#bgColor" value="0" />
+        <font key="TitleArea.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleArea.sel#transparency" value="0" />
+        <val key="TitleArea.transparency" value="0" />
+        <val key="TitleCommand.dis#fgColor" value="9999" />
+        <font key="TitleCommand.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleCommand.dis#marUnit" value="2,2,2,2" />
+        <val key="TitleCommand.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="TitleCommand.fgColor" value="9999" />
+        <font key="TitleCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleCommand.marUnit" value="2,2,2,2" />
+        <val key="TitleCommand.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="TitleCommand.press#bgColor" value="196a79" />
+        <val key="TitleCommand.press#fgColor" value="b5d4" />
+        <font key="TitleCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleCommand.press#marUnit" value="2,2,2,2" />
+        <val key="TitleCommand.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="TitleCommand.press#transparency" value="54" />
+        <val key="TitleCommand.sel#fgColor" value="9999" />
+        <font key="TitleCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="TitleCommand.sel#marUnit" value="2,2,2,2" />
+        <val key="TitleCommand.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="TitleItem.bgColor" value="0" />
+        <val key="TitleItem.dis#bgColor" value="0" />
+        <val key="TitleItem.dis#fgColor" value="f77032" />
+        <font key="TitleItem.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="TitleItem.dis#padUnit" value="0,2,0,2" />
+        <val key="TitleItem.dis#padding" value="0.0,0.0,3.0,3.0" />
+        <val key="TitleItem.dis#transparency" value="0" />
+        <val key="TitleItem.fgColor" value="f77032" />
+        <font key="TitleItem.font" type="system" face="0" style="1" size="0" />
+        <val key="TitleItem.padUnit" value="0,2,0,2" />
+        <val key="TitleItem.padding" value="0.0,0.0,3.0,3.0" />
+        <val key="TitleItem.press#bgColor" value="0" />
+        <val key="TitleItem.press#fgColor" value="f77032" />
+        <font key="TitleItem.press#font" type="system" face="0" style="1" size="0" />
+        <val key="TitleItem.press#padUnit" value="0,2,0,2" />
+        <val key="TitleItem.press#padding" value="0.0,0.0,3.0,3.0" />
+        <val key="TitleItem.press#transparency" value="0" />
+        <val key="TitleItem.sel#bgColor" value="0" />
+        <val key="TitleItem.sel#fgColor" value="f77032" />
+        <font key="TitleItem.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="TitleItem.sel#padUnit" value="0,2,0,2" />
+        <val key="TitleItem.sel#padding" value="0.0,0.0,3.0,3.0" />
+        <val key="TitleItem.sel#transparency" value="0" />
+        <val key="TitleItem.transparency" value="0" />
+        <val key="Titre.derive" value="Container" />
+        <val key="Titre.dis#derive" value="Container.dis" />
+        <font key="Titre.dis#font" type="system" face="0" style="1" size="0" />
+        <val key="Titre.dis#padUnit" value="2,2,2,2" />
+        <val key="Titre.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <font key="Titre.font" type="system" face="0" style="1" size="0" />
+        <val key="Titre.padUnit" value="2,2,2,2" />
+        <val key="Titre.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="Titre.press#derive" value="Container.press" />
+        <font key="Titre.press#font" type="system" face="0" style="1" size="0" />
+        <val key="Titre.press#padUnit" value="2,2,2,2" />
+        <val key="Titre.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="Titre.sel#derive" value="Container.sel" />
+        <font key="Titre.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="Titre.sel#padUnit" value="2,2,2,2" />
+        <val key="Titre.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="TopBody.bgColor" value="0" />
+        <val key="TopBody.dis#bgColor" value="0" />
+        <val key="TopBody.dis#fgColor" value="ffffff" />
+        <val key="TopBody.dis#transparency" value="0" />
+        <val key="TopBody.fgColor" value="ffffff" />
+        <val key="TopBody.press#bgColor" value="0" />
+        <val key="TopBody.press#fgColor" value="ffffff" />
+        <val key="TopBody.press#transparency" value="0" />
+        <val key="TopBody.sel#bgColor" value="0" />
+        <val key="TopBody.sel#fgColor" value="ffffff" />
+        <val key="TopBody.sel#transparency" value="0" />
+        <val key="TopBody.transparency" value="0" />
+        <val key="TopNote.bgColor" value="0" />
+        <val key="TopNote.dis#bgColor" value="0" />
+        <val key="TopNote.dis#fgColor" value="ffffff" />
+        <val key="TopNote.dis#transparency" value="0" />
+        <val key="TopNote.fgColor" value="ffffff" />
+        <val key="TopNote.press#bgColor" value="0" />
+        <val key="TopNote.press#fgColor" value="ffffff" />
+        <val key="TopNote.press#transparency" value="0" />
+        <val key="TopNote.sel#bgColor" value="0" />
+        <val key="TopNote.sel#fgColor" value="ffffff" />
+        <val key="TopNote.sel#transparency" value="0" />
+        <val key="TopNote.transparency" value="0" />
+        <val key="TopTitle.bgColor" value="0" />
+        <val key="TopTitle.dis#bgColor" value="0" />
+        <val key="TopTitle.dis#fgColor" value="ffffff" />
+        <val key="TopTitle.dis#transparency" value="0" />
+        <val key="TopTitle.fgColor" value="ffffff" />
+        <val key="TopTitle.press#bgColor" value="0" />
+        <val key="TopTitle.press#fgColor" value="ffffff" />
+        <val key="TopTitle.press#transparency" value="0" />
+        <val key="TopTitle.sel#bgColor" value="0" />
+        <val key="TopTitle.sel#fgColor" value="ffffff" />
+        <val key="TopTitle.sel#transparency" value="0" />
+        <val key="TopTitle.transparency" value="0" />
+    </theme>
+</resource>
